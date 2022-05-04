@@ -1,4 +1,4 @@
 ---
 {{ ansible_managed | comment }}
 
-{{ cassandra_configuration | to_nice_yaml }}
+{{ cassandra_configuration | to_nice_yaml(indent=2) }}
